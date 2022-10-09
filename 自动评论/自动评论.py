@@ -1,4 +1,4 @@
-# 给小码王全社区用户发同一条评论
+    time.sleep(1)# 给小码王全社区用户发同一条评论
 # 需要安装selenium库
 # 必须以电脑所有的分辨率运行程序
 # 引入必要库
@@ -50,3 +50,4 @@ while True:
     driver.get("https://world.xiaomawang.com/w/person/project/all/" + str(userID))
     send_keys_to_Element("/html/body/div/div[2]/div[4]/div[2]/div[2]/div[1]/div[2]/textarea", comment)
     clickElement("/html/body/div/div[2]/div[4]/div[2]/div[2]/div[2]/div[2]/button")
+    time.sleep(1)
